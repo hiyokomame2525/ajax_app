@@ -54,7 +54,7 @@ test:
 #
 production:
   <<: *default
-   adapter: postgresql
+  adapter: postgresql
   url: <%= ENV['DATABASE_URL'] %>
   database: ajax_app_rails7_2_production
   username: ajax_app_rails7_2
